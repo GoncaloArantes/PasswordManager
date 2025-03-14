@@ -2,7 +2,6 @@ import os
 import json
 import tkinter as tk
 from tkinter import messagebox
-from cryptography.fernet import Fernet
 from helper_funcs import check_input, read_key, encrypt_password, decrypt_password
 
 # Simple password manager, only to store passwords and usernames, not passwords for certain websites.
